@@ -9,11 +9,11 @@ public class Rectangle {
     }
 
     public double perimeter() {
-        return (2 * (width + width)) + (2 * (height + height));
+        return width + width + height + height;
     }
 
     public double diagonal() {
-         double diagonal = Math.sqrt(Math.pow(height, 2) + Math.pow(width, 2));
-         return diagonal;
+         return Math.sqrt(Math.pow(height, 2) + Math.pow(width, 2));
+
     }
 }
